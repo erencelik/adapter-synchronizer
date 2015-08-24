@@ -1,5 +1,6 @@
 # adapter-synchronizer
->This library provides synchronization between adapters...
+> Library for providing synchronized adapters
+
 ## Gradle Integration
 ```gradle
 repositories {
