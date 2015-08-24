@@ -1,5 +1,5 @@
 # adapter-synchronizer
-> Library for providing synchronized adapters
+> Library for providing synchronized adapters...
 
 ## Gradle Integration
 ```gradle
