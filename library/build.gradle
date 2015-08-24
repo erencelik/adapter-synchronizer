@@ -1,8 +1,5 @@
 apply plugin: 'com.android.library'
 
-group = 'ern.adapter.synchronizer'
-version = "1.0.0"
-
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
@@ -10,14 +7,32 @@ android {
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
-        versionName version
+        versionName '1.0.0'
     }
     buildTypes {
     }
 }
 
-def siteUrl = 'https://github.com/erencelik/adapter-synchronizer'
-def gitUrl = 'https://github.com/erencelik/adapter-synchronizer.git'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'ern.adapter.synchronizer'
 
-dependencies {
+    publishedGroupId = 'ern.adapter.synchronizer'
+    libraryName = 'AdapterSynchronizer'
+    artifact = 'library'
+
+    libraryDescription = 'Library for providing synchronized adapters...'
+
+    siteUrl = 'https://github.com/erencelik/adapter-synchronizer'
+    gitUrl = 'https://github.com/erencelik/adapter-synchronizer.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'erencelik'
+    developerName = 'H. Eren CELIK'
+    developerEmail = 'eren.celik@icloud.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
