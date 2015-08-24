@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adapter Synchronizer</string>
+    <string name="action_add_single">Add single item</string>
+    <string name="action_add_multi">Add multiple items</string>
+    <string name="action_go">Open new Activity</string>
+    <string name="txt_add_to_synchronizer">Add this adapter to synchronizer</string>
+</resources>
