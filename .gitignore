@@ -1,56 +1,7 @@
-#Android generated
-bin
-gen
+.idea/
 
-#Eclipse
-.project
-.classpath
-.settings
+build/
 
-#IntelliJ IDEA
-.idea
-*.iml
-*.ipr
-*.iws
-out
-
-#Maven
-target
-release.properties
-pom.xml.*
-
-#Ant
-build.xml
-local.properties
-proguard.cfg
-
-#OSX
-.DS_Store
-
-#Gradle
-.gradle
-build
+.gradle/
 
 local.properties
-
-build/intermediates/gradle_project_sync_data.bin
-
-build/intermediates/dex-cache/cache.xml
-
-build/intermediates/dex-cache/cache.xml
-
-build/intermediates/dex-cache/cache.xml
-
-.gradle/2.4/taskArtifacts/cache.properties.lock
-
-.gradle/2.4/taskArtifacts/fileHashes.bin
-
-.gradle/2.4/taskArtifacts/fileSnapshots.bin
-
-.gradle/2.4/taskArtifacts/outputFileStates.bin
-
-.gradle/2.4/taskArtifacts/taskArtifacts.bin
-
-build/intermediates/gradle_project_sync_data.bin
-
-.gradle/2.4/taskArtifacts/cache.properties
