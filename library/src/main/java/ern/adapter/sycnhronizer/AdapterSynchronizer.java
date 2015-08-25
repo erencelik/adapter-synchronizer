@@ -202,7 +202,7 @@ public final class AdapterSynchronizer implements Synchronizer {
                             if(mIds == null || mIds.length == 0)
                                 mIds = AdapterSynchronizer.getInstance().getIds();
                             for (int id : mIds)
-                                work(AdapterSynchronizer.getInstance().getAdapterById(id));
+                                operate(AdapterSynchronizer.getInstance().getAdapterById(id));
                         }
                     }
                     catch(InterruptedException exception) {
@@ -214,10 +214,12 @@ public final class AdapterSynchronizer implements Synchronizer {
         }
 
         /**
-         * T
-         * @param adapter
+         * This method operates adapter as expected type
+         * And this process should be running on main thread
+         * After operation completed, the adapter will be notified
+         * @param adapter to be operated
          */
-        private void work(final ArrayAdapter adapter) {
+        private void operate(final ArrayAdapter adapter) {
             if(adapter != null) {
                 mHandler.post(new Runnable() {
                     @SuppressWarnings("unchecked")
@@ -250,6 +252,13 @@ public final class AdapterSynchronizer implements Synchronizer {
             }
         }
 
+        /**
+         * Internal sync method for notifying InternalSynchronizer Thread
+         * @param object object to be operated
+         * @param type type of the operation
+         * @param ids determines which adapters should be synchronized
+         *            if not specified all adapters will be synchronized
+         */
         public void sync(Object object, SyncType type, int... ids) {
             if(object != null) {
                 synchronized (this) {

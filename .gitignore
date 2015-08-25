@@ -52,3 +52,5 @@ build/intermediates/dex-cache/cache.xml
 .gradle/2.4/taskArtifacts/taskArtifacts.bin
 
 build/intermediates/gradle_project_sync_data.bin
+
+.gradle/2.4/taskArtifacts/cache.properties
