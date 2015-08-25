@@ -1,16 +1,9 @@
 # adapter-synchronizer
 > Library for providing synchronized adapters...
 
-## Gradle Integration
-```gradle
-repositories {
-  mavenCentral()
-}
+## Setup
+Add [library](https://github.com/erencelik/adapter-synchronizer/tree/master/library) module to your project as **Android Library**.
 
-dependencies {
-  compile 'ern.adapter.synchronizer:library:1.0.0'
-}
-```
 ## Features
 - Only works with <code>ArrayAdapter</code>.
 - Currently supports add single, add multiple and remove methods.
