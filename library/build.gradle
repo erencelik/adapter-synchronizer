@@ -1,38 +1,15 @@
-apply plugin: 'com.android.library'
+apply plugin: 'android-library'
 
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 7
         targetSdkVersion 22
-        versionCode 1
-        versionName '1.0.0'
     }
-    buildTypes {
+    lintOptions {
+        abortOnError false
     }
 }
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'ern.adapter.synchronizer'
-
-    publishedGroupId = 'ern.adapter.synchronizer'
-    libraryName = 'AdapterSynchronizer'
-    artifact = 'library'
-
-    libraryDescription = 'Library for providing synchronized adapters...'
-
-    siteUrl = 'https://github.com/erencelik/adapter-synchronizer'
-    gitUrl = 'https://github.com/erencelik/adapter-synchronizer.git'
-
-    libraryVersion = '1.0.0'
-
-    developerId = 'erencelik'
-    developerName = 'H. Eren CELIK'
-    developerEmail = 'eren.celik@icloud.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
