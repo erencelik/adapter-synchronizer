@@ -1,6 +1,8 @@
 # adapter-synchronizer
 > Library for providing synchronized adapters...
 
+![Adapter Synchronizer Banner](https://github.com/erencelik/adapter-synchronizer/blob/master/adapter-synchronizer-banner.png "Adapter Synchronizer")
+
 ## Setup
 Add [library](https://github.com/erencelik/adapter-synchronizer/tree/master/library) module to your project as **Android Library**.
 
