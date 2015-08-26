@@ -1,6 +1,10 @@
 # adapter-synchronizer
 > Library for providing synchronized adapters...
 
+___
+
+Version **1.0.0** is the last version officially released on 24 August 2015.
+
 ![Adapter Synchronizer Banner](https://github.com/erencelik/adapter-synchronizer/blob/master/adapter-synchronizer-banner.png "Adapter Synchronizer")
 
 ## Setup
