@@ -10,6 +10,13 @@ Add [library](https://github.com/erencelik/adapter-synchronizer/tree/master/libr
 - Only works with <code>ArrayAdapter</code>.
 - Currently supports add single, add multiple and remove methods.
 
+## Sample Application
+There is a [sample application](https://github.com/erencelik/adapter-synchronizer/tree/master/sample), you may want to try it, and also application has been published to the Play Store for easy access.
+
+[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](http://play.google.com/store/apps/details?id=ern.adapter.synchronizer.sample)
+
+If you find any bugs just contact me, and also I will be open-minded to get any ideas or advises that improve this library.
+
 ## Usage
 Usage of this library is quite simple.
 - First initialize **AdapterSynchronizer** in your Application **onCreate** method.
@@ -72,10 +79,6 @@ public void removeItem(T item) {
 ...
 
 ```
-## Sample Application
-There is a [sample application](https://github.com/erencelik/adapter-synchronizer/tree/master/sample), you may want to try it.
-<br>
-If you find any bugs just contact me, and also I will be open-minded to get any ideas or advises that improve this library.
 
 ## Future Tasks
 - Will work with <code>RecycleView.Adapter</code>.
