@@ -73,7 +73,7 @@ public void removeItem(T item) {
 
 ```
 ## Sample Application
-There is a sample application in branch [sample](https://github.com/erencelik/adapter-synchronizer/tree/master/sample), you could try and test it.
+There is a [sample application](https://github.com/erencelik/adapter-synchronizer/tree/master/sample), you may want to try it.
 <br>
 If you find any bugs just contact me, and also I will be open-minded to get any ideas or advises that improve this library.
 
