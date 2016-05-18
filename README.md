@@ -76,7 +76,7 @@ public void addItem(T item) {
 public void removeItem(T item) {
   mAdapter.remove(item);
   // Without supplying adapter id to synchronize method
-  // causes all of your bounded atapters to be synchronized.
+  // causes all of your bounded adapters to be synchronized.
   AdapterSynchronizer.getInstance().synchronize(item, AdapterSynchronizer.SyncType.REMOVE);
 }
 
